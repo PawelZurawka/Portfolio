@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MobileNav } from '../components/MobileNav/MobileNav';
 import { Navbar } from '../components/Navbar/Navbar';
+import { HeroSection } from '../components/HeroSection/HeroSection';
 
 export const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ export const Home = () => {
         toggle={toggle}
       />
       <Navbar toggle={toggle} />
+      <HeroSection />
     </>
   );
 };
