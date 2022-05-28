@@ -1,6 +1,6 @@
 :root {
-  --main-color: rgba(247, 102, 0, 1);
-  --overlay-color: rgba(236, 236, 236, 1);
+  --main-color: #f76600;
+  --overlay-color: #ececec;
 }
 
 * {
