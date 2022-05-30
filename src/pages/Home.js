@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { MobileNav } from '../components/MobileNav/MobileNav';
 import { Navbar } from '../components/Navbar/Navbar';
 import { HeroSection } from '../components/HeroSection/HeroSection';
-import { StackSection } from '../components/StackSection/StackSection';
-import { objOne } from '../components/StackSection/Data';
+import { Section } from '../components/ReusableSection/Section';
+import { contactSection, projectsSection, stackSection } from '../components/ReusableSection/Data';
 
 export const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,9 @@ export const Home = () => {
       />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <StackSection {...objOne} />
+      <Section {...stackSection} />
+      <Section {...projectsSection} />
+      <Section {...contactSection} />
     </>
   );
 };

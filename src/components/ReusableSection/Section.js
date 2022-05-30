@@ -7,42 +7,42 @@ import {
   Heading,
   Img,
   ImgWrap,
-  StackContainer,
-  StackRow,
-  StackWrapper,
+  SectionContainer,
+  SectionRow,
+  SectionWrapper,
   Subtitle,
   TextWrapper,
   TopLine,
-} from './StackElements';
+} from './SectionElements';
 
-export const StackSection = ({
+export const Section = ({
   lightBg,
   id,
   imgStart,
   topLine,
   lightText,
   headline,
-  darkText,
+  darkTextDesc,
   description,
   buttonLabel,
   img,
   alt,
-  primary,
-  dark,
+  primaryBtn,
+  darkBtnFont,
   dark2,
 }) => {
   return (
     <>
-      <StackContainer
+      <SectionContainer
         lightBg={lightBg}
         id={id}>
-        <StackWrapper>
-          <StackRow imgStart={imgStart}>
+        <SectionWrapper>
+          <SectionRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkTextDesc={darkTextDesc}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
                     to="home"
@@ -51,8 +51,8 @@ export const StackSection = ({
                     spy={true}
                     exact="true"
                     offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
+                    primaryBtn={primaryBtn ? 1 : 0}
+                    darkBtnFont={darkBtnFont ? 1 : 0}
                     dark2={dark2 ? 1 : 0}>
                     {buttonLabel}
                   </Button>
@@ -67,9 +67,9 @@ export const StackSection = ({
                 />
               </ImgWrap>
             </Column2>
-          </StackRow>
-        </StackWrapper>
-      </StackContainer>
+          </SectionRow>
+        </SectionWrapper>
+      </SectionContainer>
     </>
   );
 };

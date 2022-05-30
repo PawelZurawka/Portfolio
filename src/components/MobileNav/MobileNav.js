@@ -21,7 +21,7 @@ export const MobileNav = ({ isOpen, toggle }) => {
       <MobileNavWrapper>
         <MobileNavMenu>
           <MobileNavLink
-            to="start"
+            to="hero"
             onClick={toggle}>
             Start
           </MobileNavLink>

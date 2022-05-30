@@ -13,7 +13,7 @@ export const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="start">Start</NavLinks>
+              <NavLinks to="hero">Start</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="stack">Umiejętności</NavLinks>

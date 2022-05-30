@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 
 export const HeroContainer = styled.div`

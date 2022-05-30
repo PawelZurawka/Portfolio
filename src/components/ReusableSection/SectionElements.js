@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
-export const StackContainer = styled.div`
+export const SectionContainer = styled.div`
   color: #fff;
   background-color: ${({ lightBg }) => (lightBg ? '#f9f9f9f' : '#010606')};
 
@@ -9,7 +9,7 @@ export const StackContainer = styled.div`
   }
 `;
 
-export const StackWrapper = styled.div`
+export const SectionWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 860px;
@@ -21,7 +21,7 @@ export const StackWrapper = styled.div`
   justify-content: center;
 `;
 
-export const StackRow = styled.div`
+export const SectionRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
@@ -46,7 +46,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  //padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -76,7 +76,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+  color: ${({ darkTextDesc }) => (darkTextDesc ? '#010606' : '#fff')};
 `;
 
 export const BtnWrap = styled.div`
@@ -86,7 +86,7 @@ export const BtnWrap = styled.div`
 
 export const ImgWrap = styled.div`
   max-width: 555px;
-  height: 100px;
+  //height: 100px;
 `;
 
 export const Img = styled.img`

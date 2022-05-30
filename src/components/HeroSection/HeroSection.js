@@ -11,7 +11,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="hero">
       <HeroBg>
         <VideoBg
           autoPlay
@@ -29,8 +29,8 @@ export const HeroSection = () => {
             to="contact"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary="true"
-            dark="true">
+            primaryBtn="true"
+            darkBtnFont="true">
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
