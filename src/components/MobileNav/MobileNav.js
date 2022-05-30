@@ -21,14 +21,14 @@ export const MobileNav = ({ isOpen, toggle }) => {
       <MobileNavWrapper>
         <MobileNavMenu>
           <MobileNavLink
-            to="about"
+            to="start"
             onClick={toggle}>
-            O mnie
+            Start
           </MobileNavLink>
           <MobileNavLink
             to="stack"
             onClick={toggle}>
-            Technologie
+            Umiejętności
           </MobileNavLink>
           <MobileNavLink
             to="projects"

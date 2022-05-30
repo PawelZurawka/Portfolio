@@ -1,0 +1,16 @@
+export const objOne = {
+  id: 'stack',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Umiejętności',
+  headline: 'Lorem ipsum dolor sit amet.',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quibusdam! Nisi, quidem. Alias, doloremque.',
+  buttonLabel: 'Wyślij',
+  imgStart: false,
+  img: require('../../assets/images/stack.svg').default,
+  alt: 'stack',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
