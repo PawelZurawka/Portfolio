@@ -27,8 +27,8 @@ export const Section = ({
   buttonLabel,
   img,
   alt,
-  primaryBtn,
-  darkBtnFont,
+  primarybtn,
+  darkbtnfont,
   dark2,
 }) => {
   return (
@@ -51,8 +51,8 @@ export const Section = ({
                     spy={true}
                     exact="true"
                     offset={-80}
-                    primaryBtn={primaryBtn ? 1 : 0}
-                    darkBtnFont={darkBtnFont ? 1 : 0}
+                    primarybtn={primarybtn ? 1 : 0}
+                    darkbtnfont={darkbtnfont ? 1 : 0}
                     dark2={dark2 ? 1 : 0}>
                     {buttonLabel}
                   </Button>

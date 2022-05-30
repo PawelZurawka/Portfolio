@@ -9,8 +9,8 @@ export const stackSection = {
   imgStart: false,
   img: require('../../assets/images/stack.svg').default,
   alt: 'stack',
-  darkBtnFont: true,
-  primaryBtn: true,
+  darkbtnfont: true,
+  primarybtn: true,
   darkTextDesc: false,
 };
 export const projectsSection = {
@@ -24,8 +24,8 @@ export const projectsSection = {
   imgStart: true,
   img: require('../../assets/images/projects.svg').default,
   alt: 'projects',
-  darkBtnFont: false,
-  primaryBtn: false,
+  darkbtnfont: false,
+  primarybtn: false,
   darkTextDesc: true,
 };
 
@@ -40,7 +40,7 @@ export const contactSection = {
   imgStart: false,
   img: require('../../assets/images/contact.svg').default,
   alt: 'contact',
-  darkBtnFont: false,
-  primaryBtn: false,
+  darkbtnfont: false,
+  primarybtn: false,
   darkTextDesc: true,
 };

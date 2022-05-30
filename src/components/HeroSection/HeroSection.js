@@ -29,8 +29,8 @@ export const HeroSection = () => {
             to="contact"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primaryBtn="true"
-            darkBtnFont="true">
+            primarybtn="true"
+            darkbtnfont="true">
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
