@@ -22,6 +22,9 @@ export const Navbar = ({ toggle }) => {
               <NavLinks to="projects">Projekty</NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to="skills">Skills</NavLinks>
+            </NavItem>
+            <NavItem>
               <NavLinks to="contact">Kontakt</NavLinks>
             </NavItem>
           </NavMenu>

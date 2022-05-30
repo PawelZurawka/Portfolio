@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 
-export const SectionContainer = styled.div`
+export const SectionContainer = styled.section`
   color: #fff;
   background-color: ${({ lightBg }) => (lightBg ? '#f9f9f9f' : '#010606')};
 

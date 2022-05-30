@@ -36,6 +36,11 @@ export const MobileNav = ({ isOpen, toggle }) => {
             Projekty
           </MobileNavLink>
           <MobileNavLink
+            to="skills"
+            onClick={toggle}>
+            Skills
+          </MobileNavLink>
+          <MobileNavLink
             to="contact"
             onClick={toggle}>
             Kontakt

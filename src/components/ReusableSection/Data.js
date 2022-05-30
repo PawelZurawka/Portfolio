@@ -31,8 +31,8 @@ export const projectsSection = {
 
 export const contactSection = {
   id: 'contact',
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   topLine: 'Kontakt',
   headline: 'Lorem ipsum dolor sit amet.',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quibusdam! Nisi, quidem. Alias, doloremque.',
@@ -40,7 +40,7 @@ export const contactSection = {
   imgStart: false,
   img: require('../../assets/images/contact.svg').default,
   alt: 'contact',
-  darkBtnFont: true,
-  primaryBtn: true,
-  darkTextDesc: false,
+  darkBtnFont: false,
+  primaryBtn: false,
+  darkTextDesc: true,
 };
