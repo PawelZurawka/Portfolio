@@ -5,6 +5,7 @@ import { HeroSection } from '../components/HeroSection/HeroSection';
 import { Section } from '../components/ReusableSection/Section';
 import { contactSection, projectsSection, stackSection } from '../components/ReusableSection/Data';
 import { Skills } from '../components/Skills/Skills';
+import { Footer } from '../components/Footer/Footer';
 
 export const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ export const Home = () => {
       <Section {...projectsSection} />
       <Skills />
       <Section {...contactSection} />
+      <Footer />
     </>
   );
 };

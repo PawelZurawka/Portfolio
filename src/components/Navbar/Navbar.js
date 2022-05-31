@@ -13,19 +13,19 @@ export const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="hero">Start</NavLinks>
+              <NavLinks to="/hero">Start</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="stack">Umiejętności</NavLinks>
+              <NavLinks to="/stack">Umiejętności</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projekty</NavLinks>
+              <NavLinks to="/projects">Projekty</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="skills">Skills</NavLinks>
+              <NavLinks to="/skills">Skills</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Kontakt</NavLinks>
+              <NavLinks to="/contact">Kontakt</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
