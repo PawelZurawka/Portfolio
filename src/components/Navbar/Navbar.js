@@ -38,19 +38,59 @@ export const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks to="/hero">Start</NavLinks>
+                <NavLinks
+                  to="hero"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-80}
+                  exact="true">
+                  Start
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/stack">Umiejętności</NavLinks>
+                <NavLinks
+                  to="stack"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-80}
+                  exact="true">
+                  Umiejętności
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/projects">Projekty</NavLinks>
+                <NavLinks
+                  to="projects"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-80}
+                  exact="true">
+                  Projekty
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/skills">Skills</NavLinks>
+                <NavLinks
+                  to="skills"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-80}
+                  exact="true">
+                  Skills
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/contact">Kontakt</NavLinks>
+                <NavLinks
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  offset={-80}
+                  exact="true">
+                  Kontakt
+                </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
