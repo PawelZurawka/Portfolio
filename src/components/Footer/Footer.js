@@ -16,8 +16,13 @@ import {
   WebsiteRights,
 } from './FooterElements';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
 
 export const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -50,7 +55,11 @@ export const Footer = () => {
         </FooterLinksContainer>
         <SmallerFooter>
           <SmallerFooterWrap>
-            <SmallerFooterLogo to="/">Lorem</SmallerFooterLogo>
+            <SmallerFooterLogo
+              to="/"
+              onClick={toggleHome}>
+              Lorem
+            </SmallerFooterLogo>
             <WebsiteRights>Lorem {new Date().getFullYear()}</WebsiteRights>
             <SmallerFooterIcons>
               <SmallerFooterIconLink
