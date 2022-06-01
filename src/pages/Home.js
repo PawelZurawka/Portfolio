@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MobileNav } from '../components/MobileNav/MobileNav';
 import { Navbar } from '../components/Navbar/Navbar';
-import { HeroSection } from '../components/HeroSection/HeroSection';
+import { Hero } from '../components/Hero/Hero';
 import { Section } from '../components/ReusableSection/Section';
 import { contactSection, projectsSection, stackSection } from '../components/ReusableSection/Data';
 import { Skills } from '../components/Skills/Skills';
@@ -21,7 +21,7 @@ export const Home = () => {
         toggle={toggle}
       />
       <Navbar toggle={toggle} />
-      <HeroSection />
+      <Hero />
       <Section {...stackSection} />
       <Section {...projectsSection} />
       <Skills />

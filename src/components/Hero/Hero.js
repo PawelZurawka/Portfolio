@@ -3,7 +3,7 @@ import { ArrowForward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroCo
 import Video from '../../assets/videos/hero.mp4';
 import { Button } from '../common/ButtonElements';
 
-export const HeroSection = () => {
+export const Hero = () => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -30,7 +30,12 @@ export const HeroSection = () => {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primarybtn="true"
-            darkbtnfont="true">
+            darkbtnfont="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+            exact="true">
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
