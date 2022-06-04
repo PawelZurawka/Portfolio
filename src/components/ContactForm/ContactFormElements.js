@@ -118,6 +118,13 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
 `;
 
 export const Text = styled.span`
