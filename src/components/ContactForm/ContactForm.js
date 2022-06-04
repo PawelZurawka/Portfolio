@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  CloseIconLink,
   Container,
   Form,
   FormButton,
@@ -12,6 +13,7 @@ import {
   Icon,
   Text,
 } from './ContactFormElements';
+import { CgClose } from 'react-icons/cg';
 
 export const ContactForm = () => {
   return (
@@ -21,6 +23,9 @@ export const ContactForm = () => {
           <Icon to="/">Lorem</Icon>
           <FormContent>
             <Form action="#">
+              <CloseIconLink to="/">
+                <CgClose />
+              </CloseIconLink>
               <FormH1>Napisz do mnie</FormH1>
               <FormLabel htmlFor="for">Twoje imię</FormLabel>
               <FormInput

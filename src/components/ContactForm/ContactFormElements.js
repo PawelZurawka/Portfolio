@@ -50,6 +50,7 @@ export const FormContent = styled.div`
 `;
 
 export const Form = styled.form`
+  position: relative;
   background: #010101;
   max-width: 400px;
   height: auto;
@@ -63,6 +64,21 @@ export const Form = styled.form`
 
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
+  }
+`;
+
+export const CloseIconLink = styled(Link)`
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  transition: 0.2s ease-out;
+
+  &:hover {
+    color: var(--main-color);
+    transition: 0.2s ease-out;
   }
 `;
 
