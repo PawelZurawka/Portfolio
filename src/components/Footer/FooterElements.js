@@ -102,23 +102,29 @@ export const SmallerFooterLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
   font-weight: bold;
+
+  @media screen and (max-width: 820px) {
+    margin-bottom: 32px;
+  }
 `;
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+
+  @media screen and (max-width: 820px) {
+    margin-bottom: 32px;
+  }
 `;
 
 export const SmallerFooterIcons = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 240px;
+  justify-content: space-between;
 `;
 
 export const SmallerFooterIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  margin: 0 10px;
 `;

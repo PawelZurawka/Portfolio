@@ -58,18 +58,18 @@ export const Footer = () => {
             <SmallerFooterLogo
               to="/"
               onClick={toggleHome}>
-              Lorem
+              Logo
             </SmallerFooterLogo>
-            <WebsiteRights>Lorem {new Date().getFullYear()}</WebsiteRights>
+            <WebsiteRights>©{new Date().getFullYear()} Paweł Żurawka. Wszelkie prawa zastrzeżone.</WebsiteRights>
             <SmallerFooterIcons>
               <SmallerFooterIconLink
-                href="//https://github.com"
+                href="https://github.com/PawelZurawka"
                 target="_blank"
                 aria-label="Github">
                 <FaGithub />
               </SmallerFooterIconLink>
               <SmallerFooterIconLink
-                href="//https://linkedin.com"
+                href="https://www.linkedin.com/in/pawel-zurawka/"
                 target="_blank"
                 aria-label="Linkedin">
                 <FaLinkedin />
